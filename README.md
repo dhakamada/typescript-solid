@@ -28,7 +28,7 @@ O S.O.L.I.D é um acrônimo que representa cinco princípios da programação or
 - Que forneça o máximo de reaproveitamento;
 - Que permaneça o máximo de tempo possível em utilização.
 
-#### Evita
+#### Utilizando os princípios conseguimos evitar
 
 - Rigidez: mudanças simples em um único módulo de um projeto resultam em alterações de várias classes de outros módulos, consumindo uma grande quantidade de tempo;
 - Fragilidade: alterações a um único ponto do código podem causar inúmeros efeitos secundários;
@@ -36,3 +36,17 @@ O S.O.L.I.D é um acrônimo que representa cinco princípios da programação or
 - Viscosidade: existem dois tipos de viscosidade:
   - Design: fazer alterações que preservam o design de software são consideravelmente mais difíceis do que fazer gambiarras;
   - Ambiente: um ambiente de build muito lento faz com que os desenvolvedores prefiram soluções que requerem menos recursos do sistema (por exemplo: tempo de compilação), mas essas soluções podem quebrar o design.
+
+---
+
+## Uso
+
+Instalar node https://nodejs.org/en/download/
+
+Instalar yarn dependencia
+
+`$ npm install --global yarn `
+
+### Observação
+
+Na pasta src é apresentado cada princípio, em que cada principio possui um exemplo de vioção (diretório `_violation`) com comentários do motivo. E no diretório `principle` é apresentado uma abordagem de como contornar o problema.

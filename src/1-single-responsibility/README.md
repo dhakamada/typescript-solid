@@ -1,4 +1,4 @@
-# Single Responsiblity Principle
+# Single Responsibility Principle
 
 > "Nunca deve haver mais de um motivo para uma classe mudar"
 
@@ -8,9 +8,9 @@ Uma analogia para explicar como o principio funciona é a relação da pessoa co
 
 Nós apenas bebemos =)
 
-### Caso não siga o seguinte princípio, pode ocorrer os seguintes side effects
+### Problemas que podemos evitar
 
 1. Falta de coesão — uma classe não deve assumir responsabilidades que não são suas;
 2. Alto acoplamento — Mais responsabilidades geram um maior nível de dependências, deixando o sistema engessado e frágil para alterações;
-3. Dificuldades na implementação de testes — É difícil de “mockar” esse tipo de classe;
+3. Dificuldades na implementação de testes — complexidade devido a alta complexidade e dependências;
 4. Dificuldades para reaproveitar o código.

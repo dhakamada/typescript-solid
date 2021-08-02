@@ -2,15 +2,9 @@
 
 DRY - Don't repeat yourself
 
-#### Princípios
+### O que é ?
 
-São os alicerces da norma, são o seu fundamento em essência, são o refúgio em que a norma encontra sustentação para racionalizar a sua legitimação, são a base de onde se extrai o norte a ser seguido por um ordenamento
-
-Se você se guiar pelos princípios, por traz dos vários padrões de projeto. Você vai saber quando e em que momento deve aplicar.
-
-### O que é S.O.L.I.D ?
-
-O S.O.L.I.D é um acrônimo que representa cinco princípios da programação orientada a objetos que facilitam no desenvolvimento de softwares e foi teorizado pelo Uncle Bob (Robert C. Martin) por volta do ano 2000. O autor Michael Feathers foi responsável pela criação do acrônimo:
+O S.O.L.I.D é um acrônimo que representa cinco princípios da programação orientada a objetos que facilitam no desenvolvimento de softwares e foi teorizado pelo Uncle Bob (Robert C. Martin) por volta do ano 2000. O autor Michael Feathers foi responsável pela criação do acrônimo.
 
 #### Os 5 princípios:
 
@@ -22,20 +16,16 @@ O S.O.L.I.D é um acrônimo que representa cinco princípios da programação or
 
 #### Benefícios
 
-- Seja fácil de se manter, adaptar e se ajustar às alterações de escopo;
-- Seja testável e de fácil entendimento;
-- Seja extensível para alterações com o menor esforço necessário;
-- Que forneça o máximo de reaproveitamento;
-- Que permaneça o máximo de tempo possível em utilização.
+- Fácil de se manter, adaptar e se ajustar às alterações de escopo;
+- Facilidade nos testes e entendimento;
+- Extensível para alterações com o menor esforço necessário;
+- Reaproveitamento de código.
 
-#### Utilizando os princípios conseguimos evitar
+#### Problemas que podemos evitar seguindo os princípios
 
-- Rigidez: mudanças simples em um único módulo de um projeto resultam em alterações de várias classes de outros módulos, consumindo uma grande quantidade de tempo;
-- Fragilidade: alterações a um único ponto do código podem causar inúmeros efeitos secundários;
-- Imobilidade: o código dentro do projeto não pode ser reutilizado com facilidade, pois possui muitas dependências;
-- Viscosidade: existem dois tipos de viscosidade:
-  - Design: fazer alterações que preservam o design de software são consideravelmente mais difíceis do que fazer gambiarras;
-  - Ambiente: um ambiente de build muito lento faz com que os desenvolvedores prefiram soluções que requerem menos recursos do sistema (por exemplo: tempo de compilação), mas essas soluções podem quebrar o design.
+- Mudanças simples em um único módulo de um projeto resultam em alterações em diversos pontos do projeto;
+- Alterações a um único ponto do código podem causar inúmeros side effects;
+- Não conseguimos reutilizar o código com facilidade, porque possui muitas dependências.
 
 ---
 
@@ -49,4 +39,6 @@ Instalar yarn dependencia
 
 ### Observação
 
-Na pasta src é apresentado cada princípio, em que cada principio possui um exemplo de vioção (diretório `_violation`) com comentários do motivo. E no diretório `principle` é apresentado uma abordagem de como contornar o problema.
+Na pasta src é apresentado cada princípio, em que cada principío possui um exemplo de vioção (diretório `_violation`) com comentários do motivo.
+
+E no diretório `principle` é apresentado uma abordagem de como contornar o problema.

@@ -1,6 +1,6 @@
 /**
  * Nesse cenário ocorre uma violação pelo motivo em que a classe Client
- * que possui mais de uma responsabilidade (CRUD e notification)
+ * possui mais de uma responsabilidade (CRUD e notificação)
  */
 
 export class Client {

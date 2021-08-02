@@ -6,7 +6,7 @@ Uma classe deve ter uma responsabilidade função, ou seja, deve tratar apenas s
 
 Uma analogia para explicar como o principio funciona é a relação da pessoa com a cerveja. Como pessoa, você deve ter conhecimento dos tipos de cervejas, nome, marca, etc. Entretando, você não precisa saber como ela foi fabricada, o processo de transporte em que chegou ao supermercado que você comprou.
 
-Nós apenas a bebemos =)
+Nós apenas bebemos =)
 
 ### Caso não siga o seguinte princípio, pode ocorrer os seguintes side effects
 
